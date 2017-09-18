@@ -5,8 +5,7 @@ Protein Contact Map - Python Project
 Contains all functions and code to extract all residues and alpha carbons information from a given pdb file.
 Create a list of AminoAcid objects
 
-### File : process.py
-*not here yet*
+### File : contactMatrixCreation.py
 For creation of the triangular matrix of contact beetween amino acids
 
 ### File : plotMatrix.py

@@ -29,6 +29,11 @@ def matrix_process():
     distMatrix = distMatrix + distMatrix.T
     #print(distMatrix)
     contactMatrix = distMatrix < distThres
+    if mode == "grey":
+        for i in range(distMatrix.shape[0]):
+            for j in range(distMatrix.shape[1]):
+                if distMatrix[i, j] > distThres :
+                    distMatrix[i, j] = distThres
     #print(contactMatrix)
 
     print_matrix(distMatrix, mode)

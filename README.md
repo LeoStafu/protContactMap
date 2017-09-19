@@ -6,11 +6,11 @@ Contains all functions and code to extract all residues and alpha carbons inform
 Create a list of AminoAcid objects
 
 ### File : contactMatrixCreation.py
-For creation of the triangular matrix of contact beetween amino acids
-
-### File : plotMatrix.py
-*not here yet*
-For plotting the matrix
+For creation of the matrix of contact beetween amino acids
 
 ### File : AminoAcid.py
 Object AminoAcid definition
+
+## File : contactMapGUI.py
+Part of the code based on Tkinter for a "friendly" GUI
+Avoid arguments in command line

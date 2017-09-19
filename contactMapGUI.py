@@ -5,7 +5,6 @@ from tkinter import *
 import matplotlib.pylab as plt
 
 
-
 def main_menu():
     root = Tk()
     root.title("Protein Contact Map")
@@ -36,7 +35,10 @@ def main_menu():
     return (entry_ID.get(), distThres.get(), mode.get())
 
 
-def print_matrix(matrix):
-    plt.imshow(matrix, interpolation='nearest', cmap=plt.cm.rainbow)
+def print_matrix(matrix, mode):
+    if mode == "color":
+        plt.imshow(matrix, interpolation='nearest', cmap=plt.cm.rainbow)
+    elif mode == "grey":
+        plt.imshow(matrix, interpolation='nearest', cmap=plt.cm.Greys)
     plt.colorbar()
     plt.show()

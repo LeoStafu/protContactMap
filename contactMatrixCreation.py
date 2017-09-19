@@ -31,7 +31,7 @@ def matrix_process():
     contactMatrix = distMatrix < distThres
     #print(contactMatrix)
 
-    print_matrix(distMatrix)
+    print_matrix(distMatrix, mode)
 
 
 

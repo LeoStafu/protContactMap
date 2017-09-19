@@ -14,7 +14,7 @@ For creation of the matrix of contact beetween amino acids
 ### File : AminoAcid.py
 Object AminoAcid definition
 
-## File : contactMapGUI.py
+### File : contactMapGUI.py
 Part of the code based on Tkinter for a "friendly" GUI
 
 Avoid arguments in command line
